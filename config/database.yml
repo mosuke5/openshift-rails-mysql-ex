@@ -4,7 +4,7 @@
 
 default: &default
   adapter: mysql2
-  encoding: unicode
+  encoding: utf8
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV["MYSQL_MAX_CONNECTIONS"] || 5 %>
